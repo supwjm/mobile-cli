@@ -1,0 +1,20 @@
+@import "../common/variable";
+
+.navigation{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  font-size: 12px;
+  a {
+    color:$color-gray;
+    &.active{
+      color:$color-red;
+      i{color:$color-red;}
+    }
+  }
+  .iconfont{
+    display: block;
+    color:#929292;
+    font-size: 28px;
+  }
+}

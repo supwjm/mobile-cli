@@ -1,0 +1,58 @@
+/*文本颜色相关变量*/
+.color-default { color: #3d4145;}
+.color-gray { color: #999;}
+.color-primary { color: #0894ec;}
+.color-success { color: #4cd964;}
+.color-danger { color: #c60007;}
+.color-warning { color: #ff6600;}
+.color-yellow{color:#92763F;}
+.color-green{ color: #6EC823;} /*微信绿*/
+.color-black{ color: black;} /*黑色*/
+.color-FE0203{color:#FE0203;}/*红色*/
+.color-959596{color:#959596;}/*灰色*/
+.color-0FB287{color:#0FB287;}/*草绿色*/
+.color-orange{color:#FF7914;}/*橙红色*/
+.color-blue{color: #1155CC;}/*蓝色，用于链接*/
+.color-pink{color: #C23E4C;}/*分红色*/
+.color-6EC69F{color:#6EC69F;}/*绿色*/
+.color-E8B44D{color:#E8B44D;}/*黄色*/
+.color-white{color:white;}
+.color-6BB4F9{color: #6BB4F9;}
+
+.color-light-blue{color: #6BB4F9;}
+.color-light-gray{color: #928A78;}
+.color-light-orange{color:#E8B44D;}
+.color-dark,.color-333{color:#333333;}
+.color-999{color:#999999;}
+.color-E64332{color:#E64332;}
+.color-BFB59E{color:#BFB59E;}
+.color-928A78{color:#928A78;}/*暗黄色*/
+
+/*文字对齐方式*/
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+.text-center{text-align: center;}
+
+/*文本超出显示省略号*/
+.intfourline,.intwoline{
+  display:-webkit-box!important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient:vertical;
+}
+
+/*4行文本溢出显示省略号*/
+.intfourline{
+  -webkit-line-clamp:4;
+}
+/*2行文本溢出显示省略号*/
+.intwoline{
+  -webkit-line-clamp:2;
+}
+/*单行文本溢出显示省略号*/
+.intoneline{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}

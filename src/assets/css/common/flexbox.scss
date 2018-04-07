@@ -1,0 +1,11 @@
+/*弹性布局*/
+.dis-flex{
+    display:flex;
+    align-items:center;
+}
+.space-between{
+  -webkit-justify-content:space-between;
+  justify-content:space-between;
+}
+.flex-1{flex:1;}
+.flex-2{flex:2;}

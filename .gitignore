@@ -1,0 +1,9 @@
+node_modules
+build
+h5build
+pinganbuild
+.DS_Store
+.idea
+.project
+statics
+npm-debug.log
